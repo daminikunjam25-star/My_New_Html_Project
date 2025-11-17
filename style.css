@@ -1,0 +1,291 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(135deg, #d7e1ff, #f3d9ff);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #2e2e3a;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+}
+
+p li {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* ------------------ NAVBAR ------------------ */
+
+nav {
+  background: #2c2c2d;
+  padding: 14px 0;
+  text-align: center;
+  box-shadow: 0 4px 10px #00000025;
+  margin-bottom: 30px;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 16px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #cdd0ff;
+}
+
+
+/* ------------------ HOME PAGE ------------------ */
+
+.home-container {
+  max-width: 860px;
+  margin: 70px auto;
+  text-align: center;
+  padding: 70px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px #00000020;
+
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 12px;
+  border-radius: 30px;
+  background: #262629;
+  color: white;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  background: #505052;
+}
+
+
+/* ------------------ PROFILE PAGE ------------------ */
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #06070a;
+  margin-top: 20px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.box {
+  width: 240px;
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 15px #00000020;
+  transition: 0.2s;
+}
+
+.box:hover {
+  transform: translateY(-4px);
+}
+
+.box h3 {
+  color: #29292c;
+}
+
+
+/* ------------------ COURSE PAGE ------------------ */
+
+.course-container {
+  max-width: 860px;
+  margin: 70px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px #00000025;
+}
+
+.course-box {
+  padding: 20px;
+  margin: 20px 0;
+  background: #f2f0ff;
+  border-radius: 12px;
+  border-left: 5px solid #4a3cff;
+}
+
+.course-box h2 {
+  color: #1c1c22;
+}
+
+.social-icons a {
+    color: #333; 
+    font-size: 22px;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff5e3a;  
+}
+
+
+
+
+/* ------------------ CONTACT PAGE ------------------ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7e3dd;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    background: #ffffff;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #b34b37;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.form-box {
+    margin-top: 25px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row input {
+    width: 100%;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    background-color: #d55f43;
+    color: #fff;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c44a2d;
+}
+
+/* ------------------ FEEDBACK PAGE ------------------ */
+
+form a {
+  text-decoration: none;
+  color: #4a3cff;
+  font-weight: 500;
+ 
+}
+
+form a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* ------------------ GRADE PAGE ------------------ */
+
+table {
+  width: 85%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #00000020;
+}
+
+th {
+  background: #4a3cff;
+  color: white;
+  padding: 14px;
+}
+
+td {
+  padding: 11px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:nth-child(even) {
+  background: #f2f0ff;
+}
+
+
+/* ------------------ FOOTER ------------------ */
+
+footer {
+  background: #2c2c2f;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
